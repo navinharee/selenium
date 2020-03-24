@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29106" started-at="2020-03-23T01:08:35Z" finished-at="2020-03-23T01:09:04Z">
+    <groups>
+    </groups>
+    <test name="LandingPageTests" duration-ms="12289" started-at="2020-03-23T01:08:35Z" finished-at="2020-03-23T01:08:47Z">
+      <class name="com.org.selenium.tests.LandingPageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.org.selenium.tests.LandingPageTest@59ec2012]" name="initialize" is-config="true" duration-ms="5343" started-at="2020-03-22T20:08:35Z" finished-at="2020-03-22T20:08:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="coursesNavigationBarTest()[pri:0, instance:com.org.selenium.tests.LandingPageTest@59ec2012]" name="coursesNavigationBarTest" duration-ms="40" started-at="2020-03-22T20:08:40Z" finished-at="2020-03-22T20:08:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coursesNavigationBarTest -->
+        <test-method status="PASS" signature="homeNavigationBarTest()[pri:0, instance:com.org.selenium.tests.LandingPageTest@59ec2012]" name="homeNavigationBarTest" duration-ms="31" started-at="2020-03-22T20:08:40Z" finished-at="2020-03-22T20:08:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeNavigationBarTest -->
+        <test-method status="PASS" signature="landingPageNavigationTest()[pri:0, instance:com.org.selenium.tests.LandingPageTest@59ec2012]" name="landingPageNavigationTest" duration-ms="6719" started-at="2020-03-22T20:08:40Z" finished-at="2020-03-22T20:08:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageNavigationTest -->
+        <test-method status="PASS" signature="videosNavigationBarTest()[pri:0, instance:com.org.selenium.tests.LandingPageTest@59ec2012]" name="videosNavigationBarTest" duration-ms="36" started-at="2020-03-22T20:08:47Z" finished-at="2020-03-22T20:08:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videosNavigationBarTest -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.org.selenium.tests.LandingPageTest@59ec2012]" name="closeBrowsers" is-config="true" duration-ms="95" started-at="2020-03-22T20:08:47Z" finished-at="2020-03-22T20:08:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+      </class> <!-- com.org.selenium.tests.LandingPageTest -->
+    </test> <!-- LandingPageTests -->
+    <test name="LoginPageTests" duration-ms="16790" started-at="2020-03-23T01:08:47Z" finished-at="2020-03-23T01:09:04Z">
+      <class name="com.org.selenium.tests.LoginTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.org.selenium.tests.LoginTest@5649fd9b]" name="initialize" is-config="true" duration-ms="847" started-at="2020-03-22T20:08:47Z" finished-at="2020-03-22T20:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="baseTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.org.selenium.tests.LoginTest@5649fd9b]" name="baseTest" duration-ms="7854" started-at="2020-03-22T20:08:48Z" data-provider="getData" finished-at="2020-03-22T20:08:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[navinsourie@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cigna123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTest -->
+        <test-method status="PASS" signature="baseTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.org.selenium.tests.LoginTest@5649fd9b]" name="baseTest" duration-ms="3847" started-at="2020-03-22T20:08:56Z" data-provider="getData" finished-at="2020-03-22T20:08:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vivinSourie@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[anthem123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[power user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTest -->
+        <test-method status="PASS" signature="baseTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.org.selenium.tests.LoginTest@5649fd9b]" name="baseTest" duration-ms="4154" started-at="2020-03-22T20:08:59Z" data-provider="getData" finished-at="2020-03-22T20:09:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bolder@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bluecross@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Super user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTest -->
+        <test-method status="PASS" signature="closeBrowsers()[pri:0, instance:com.org.selenium.tests.LoginTest@5649fd9b]" name="closeBrowsers" is-config="true" duration-ms="82" started-at="2020-03-22T20:09:04Z" finished-at="2020-03-22T20:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsers -->
+      </class> <!-- com.org.selenium.tests.LoginTest -->
+    </test> <!-- LoginPageTests -->
+  </suite> <!-- Suite -->
+</testng-results>
